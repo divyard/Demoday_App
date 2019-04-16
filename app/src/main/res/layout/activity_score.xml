@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer"
+    tools:context=".activity_score">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/fff"
+        android:scaleType="centerCrop"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/te"
+                        android:layout_width="315dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+
+                        android:layout_marginTop="10dp"
+                        android:text="#1 goFish"
+
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="17dp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+
+                    >
+                    <TextView
+                        android:layout_width="315dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Problem Validation and Customer Discovery (25%) "
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="15dp" />
+                    <TextView
+                        android:id="@+id/tx1"
+                        android:layout_width="315dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:textSize="15dp" />
+
+                    <SeekBar
+                        android:id="@+id/sb1"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="11dp"
+                        android:max="10"
+                        android:progressDrawable="@drawable/seekbar"
+                        android:thumb="@drawable/seekthumb"
+                        >
+
+                    </SeekBar>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="315dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Innovativeness (15%) "
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/tx2"
+                        android:layout_width="315dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:textSize="15dp" />
+
+                    <SeekBar
+                        android:id="@+id/sb2"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="11dp"
+                        android:max="10"
+                        android:progressDrawable="@drawable/seekbar"
+                        android:thumb="@drawable/seekthumb"
+                        >
+
+                    </SeekBar>
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="315dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Solution (Utility, Usability and Depolyability) (20%)"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textStyle="bold"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/tx3"
+                        android:layout_width="315dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:textSize="15dp" />
+
+                    <SeekBar
+                        android:id="@+id/sb3"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="11dp"
+                        android:max="10"
+                        android:progressDrawable="@drawable/seekbar"
+                        android:thumb="@drawable/seekthumb"
+                        >
+
+                    </SeekBar>
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="315dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Technical Rigour (15%)"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textStyle="bold"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/tx4"
+                        android:layout_width="315dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:textSize="15dp" />
+
+                    <SeekBar
+                        android:id="@+id/sb4"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="11dp"
+                        android:max="10"
+                        android:progressDrawable="@drawable/seekbar"
+                        android:thumb="@drawable/seekthumb"
+                        >
+
+                    </SeekBar>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="315dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Team Competence and Progress Achieved (25%)"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textStyle="bold"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/tx5"
+                        android:layout_width="315dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:textSize="15dp" />
+
+                    <SeekBar
+                        android:id="@+id/sb5"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="11dp"
+                        android:max="10"
+                        android:progressDrawable="@drawable/seekbar"
+                        android:thumb="@drawable/seekthumb"
+                        >
+
+                    </SeekBar>
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="315dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Comments"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="15dp" />
+
+                    <EditText
+                        android:id="@+id/comm"
+                        android:layout_width="289dp"
+                        android:layout_height="108dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="3dp"
+                        android:background="@drawable/but"
+                        android:inputType="text|textMultiLine"
+                        android:gravity="top"
+                        android:padding="5dp"
+                        android:textSize="20dp"
+                        />
+                </LinearLayout>
+
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="220dp"
+                android:layout_marginTop="15dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:text="Submit"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:background="@drawable/button"
+                android:layout_marginBottom="5dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav"
+
+        app:headerLayout="@layout/header"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        app:itemTextColor="@color/gray"
+        app:itemIconTint="@color/gray"
+        app:menu="@menu/drawermenu"
+        android:layout_gravity="start">
+
+    </android.support.design.widget.NavigationView>
+
+
+
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "375446592421",
+    "firebase_url": "https://fir-540b9.firebaseio.com",
+    "project_id": "fir-540b9",
+    "storage_bucket": "fir-540b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375446592421:android:41e3d43c42dfe78f",
+        "android_client_info": {
+          "package_name": "com.example.divya.demoday"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375446592421-99cetkj3gdu62apmpg2lrn9em73g7gio.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.divya.demoday",
+            "certificate_hash": "fd877cf40e18af9cfb45f7a21be8d3661bc338d6"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBS6tvuGSjQ4WGfMfm5h08g6yb_GmeKP-A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375446592421-b8f909v0f6stp6kluskiiu1qkv6acj15.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

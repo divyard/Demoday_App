@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawerr"
+    tools:context=".activity_handwash">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/proto"
+        android:alpha="0.05"
+        android:scaleType="centerCrop"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:orientation="vertical">
+            <android.support.v7.widget.CardView
+                android:id="@+id/bankcardI"
+                android:layout_width="340dp"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="315dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:text="Team 2 - Smart handwash monitoring"
+                        android:textColor="#000"
+                        android:textSize="20dp" />
+
+
+
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/bankcardId"
+                android:layout_width="340dp"
+                android:layout_height="120dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="315dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:text="Problem Validation and Customer Discovery [25%] "
+                        android:textColor="#000"
+                        android:textSize="20dp" />
+
+                    <EditText
+                        android:layout_width="305dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="2dp"
+                        android:hint="  Score [0-10]">
+
+                    </EditText>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/bankcardId1"
+                android:layout_width="340dp"
+                android:layout_height="120dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="315dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:text="Innovativeness [15%] "
+                        android:textColor="#000"
+                        android:textSize="20dp" />
+
+                    <EditText
+                        android:layout_width="305dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="3dp"
+                        android:hint="  Score [0-10]">
+
+                    </EditText>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/bankcardId2"
+                android:layout_width="340dp"
+                android:layout_height="120dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="315dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:text="Solution [Utility, Usability and Depolyability] [ 20%]"
+                        android:textColor="#000"
+                        android:textSize="20dp" />
+
+                    <EditText
+                        android:layout_width="305dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="3dp"
+                        android:hint="  Score [0-10]">
+
+                    </EditText>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/bankcardId3"
+                android:layout_width="340dp"
+                android:layout_height="120dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="315dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:text="Technical Rigour [15%]"
+                        android:textColor="#000"
+                        android:textSize="20dp" />
+
+                    <EditText
+                        android:layout_width="305dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="3dp"
+                        android:hint="  Score [0-10]">
+
+                    </EditText>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:id="@+id/bankcardId4"
+                android:layout_width="340dp"
+                android:layout_height="120dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="315dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:text="Team Competence and Progress Achieved [25%]"
+                        android:textColor="#000"
+                        android:textSize="20dp" />
+
+                    <EditText
+                        android:layout_width="305dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="3dp"
+                        android:hint="  Score [0-10]">
+
+                    </EditText>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:id="@+id/bankcardId5"
+                android:layout_width="340dp"
+                android:layout_height="170dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="315dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:text="Comments"
+                        android:textColor="#000"
+                        android:textSize="20dp" />
+
+                    <EditText
+                        android:layout_width="289dp"
+                        android:layout_height="108dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="3dp"
+                        android:background="@drawable/but"
+                        android:inputType="text|textMultiLine"
+                        android:gravity="top"
+                        android:padding="5dp"
+                        android:textSize="20dp"
+                        />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <Button
+                android:layout_width="220dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:text="Submit"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:background="@drawable/button"
+                android:layout_marginBottom="5dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navv"
+
+        app:headerLayout="@layout/header"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        app:itemTextColor="@color/gray"
+        app:itemIconTint="@color/gray"
+        app:menu="@menu/drawermenu"
+        android:layout_gravity="start">
+
+    </android.support.design.widget.NavigationView>
+
+
+
+</android.support.v4.widget.DrawerLayout>
